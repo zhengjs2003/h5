@@ -10,8 +10,12 @@ input[type="button"],input[type="submit"],button{cursor:pointer;}
 .text-center{text-align:center;margin:10px 0;}
 address,em{font-style:normal;}
 a{text-decoration:none;color:#0066cc;}
-.left{float:left;}
-.right{float:right;}
+/* del right by zhengjs */
+.left{float:left
+
+
+/* add by zhengjs */
+.zheng{color:red;}
 
 /* font style */
 .cred,a.cred,a.cred:hover,.cred a,.cred a:hover{color:#ff0000;}
