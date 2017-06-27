@@ -10,12 +10,11 @@ input[type="button"],input[type="submit"],button{cursor:pointer;}
 .text-center{text-align:center;margin:10px 0;}
 address,em{font-style:normal;}
 a{text-decoration:none;color:#0066cc;}
-/* del right by zhengjs */
-.left{float:left
+/* add right by zhengjs */
+.left{float:left;}
+.right{float:right;}
 
-
-/* add by zhengjs */
-.zheng{color:red;}
+/* del by zhengjs */
 
 /* font style */
 .cred,a.cred,a.cred:hover,.cred a,.cred a:hover{color:#ff0000;}
@@ -458,5 +457,20 @@ color: #333;
 .sckill_gbtn{background:-webkit-gradient(linear,0 0,0 100%,from(#bbbaba),to(#9f9e9e)); border:1px solid #a5a3a3;}
 .g_price{ text-decoration:line-through; color:#999; padding-left:15px;}
 .sckill ul li strong{ color:#d92030; font-size:18px; padding-right:3px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
