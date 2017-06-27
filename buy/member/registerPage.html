@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="ect.appcache">
+<html manifest="../ect.appcache">
 <head>
 <base  />
 <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
@@ -24,8 +24,6 @@ wjsessionid=";jsessionid=173300C3F98828DDF69C11E2C998292F";
 <script type="text/javascript" src="../js/book.js"></script>
 <script type="text/javascript" src="../js/shop.js"></script>
 <script type="text/javascript" src="../js/operation.js"></script>
-<script type="text/javascript" src="http://m.c365.com/js/timer.js?date=new Date()"></script>
-
 <script type="text/javascript">
 var refreshStatus = function(){
 		var options = {
@@ -161,7 +159,7 @@ $(document).delegate('#home','pageshow',
 						alert("您已是无线城市注册客户，您可以直接登录！");
 						//randCode();
 						top.window.location.href="../HTMLLoginServlet";
-					//	$("#randCodeImg").attr("src","../randomCode.jpg@date="+new Date());
+						$("#randCodeImg").attr("src","../randomCode.jpg@date="+new Date());
 					}else {
 						alert(data.msg);
 						$("#randCodeImg").attr("src","../randomCode.jpg@date="+new Date());
@@ -254,7 +252,7 @@ var leftsearch = function(){
         <tr>
           <td align="right" class="name_title">验证码：</td>
           <td><input class="ipt" name="randCode" type="text" id="randCode_register" style="width: 40%;" maxlength="4" />
-          	<a href="javascript:randCode();"><img align="absmiddle" id="randCodeImg" src="../randomCode.jpg" alt="" /></a>
+          	<a href="javascript:randCode();"><img align="absmiddle" id="randCodeImg"  alt="" /></a>
           	<span id="randCode_registerTip"></span>
           </td>
         </tr>
@@ -291,8 +289,6 @@ var leftsearch = function(){
         <p>中国移动通信集团山西有限公司</p>
     </div>
   </footer>
-<img style="display:none;" src="../../hm.baidu.com/hm.gif@si=b0c1b8c5ce6123a5ae92c8ffa9b7582f&et=0&nv=0&st=4&lt=1394293713&v=wap-2-0.3&rnd=1062102733" width="0" height="0"  />
-  	<div style="position:absolute; left:-9999px;"><a href="#" id="setfoc"></a></div>
 </div>
 </body>
 </html>
