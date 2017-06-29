@@ -698,5 +698,6 @@ $(document).on("pageinit","#seckillpage",function(){
 </script>
 
 </div>
+    <script src="../../js/load.js"></script>
 </body>
 </html>

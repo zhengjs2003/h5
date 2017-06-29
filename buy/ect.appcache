@@ -1,8 +1,9 @@
 CACHE MANIFEST  
-#VERSION 1234567890
+#VERSION 12345678
 CACHE:
 images/logo.png
 js/operation.js
+js/load.js
 mu-mobi/css/manage.css
 mu-mobi/js/jquery.mobile-1.2.0.min.js
 mu-mobi/js/seckill.js
